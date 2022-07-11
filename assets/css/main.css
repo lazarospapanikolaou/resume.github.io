@@ -80,3 +80,22 @@ body {
   margin: auto;
   margin-left: 20px;
 }
+
+.container .right_Side .section .container1 {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container .right_Side .section .container1 .iconHugLine {
+  flex: auto;
+  width: 25%;
+  max-width: 50%;
+  border: 2px solid #808080;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
