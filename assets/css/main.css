@@ -56,3 +56,27 @@ body {
   font-style: italic;
 }
 
+.container .right_Side .section {
+  padding: 30px 0;
+  margin-left: 50px;
+}
+
+.container .right_Side .section .horizonLine {
+  width: 100%;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.container .right_Side .section .horizonLine::after {
+  content: "";
+  flex:auto;
+  background-color: black;
+  height: 1px;
+  margin: auto;
+  margin-left: 20px;
+}
