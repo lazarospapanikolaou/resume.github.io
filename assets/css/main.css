@@ -43,6 +43,8 @@ body {
   padding: 40px;
 }
 
+
+
 .container .right_Side .title {
   font-size: 35px;
   font-weight: 600;
@@ -58,30 +60,11 @@ body {
   font-style: italic;
 }
 
+
 .container .right_Side .section {
   padding: 30px 0;
   margin-left: 50px;
   display: block;
-}
-
-.container .right_Side .section .horizonLine {
-  width: 100%;
-  align-items: center;
-  font-size: 25px;
-  font-weight: 600;
-  padding-top: 10px;
-  margin: 0 auto;
-  justify-content: center;
-  display: flex;
-}
-
-.container .right_Side .section .horizonLine::after {
-  content: "";
-  flex:auto;
-  background-color: black;
-  height: 1px;
-  margin: auto;
-  margin-left: 20px;
 }
 
 .container .right_Side .section .container1 {
@@ -90,10 +73,10 @@ body {
   margin-top: 20px;
 }
 
-.container .right_Side .section .container1 .iconHugLine {
+.container .right_Side .section .container1 .iconHug {
   flex: auto;
   width: 25%;
-  max-width: 50%;
+  max-width: 50px;
   border: 2px solid #808080;
   border-right: none;
   border-top-left-radius: 5px;
@@ -108,8 +91,40 @@ body {
   padding-right: 30px;
 }
 
+
+
+.container .right_Side .section .horizonLine {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.container .right_Side .section .horizonLine:after {
+  content: "";
+  flex: auto;
+  background: #8b8b8b;
+  height: 1px;
+  margin: auto;
+  margin-left: 20px;
+}
+
 .container .right_Side .section .container1 .items .item {
   margin: 20px 0;
+}
+
+.container .right_Side .section .container1 .items .item .entity .what {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .right_Side .section .container1 .items .item .entity .where {
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .container .right_Side .section .container1 .items .item .entity {
@@ -118,22 +133,11 @@ body {
   align-items: center;
 }
 
-.container .right_Side .section .container1 .items .item .entity .what {
-  font-size: 20px;
-  font-weight: 600;
-  
-}
-
-.container .right_Side .section .container1 .items .item .entity .where {
-  font-size: 19px;
-  font-weight: 400;
-  
-}
 .container .right_Side .section .container1 .items .item .entity .where .when {
   font-size: 15px;
   opacity: 0.6;
 }
 
-.container .right_Side .section .container1 .items .item .entity div {
-  display: block;
-}
+
+
+
