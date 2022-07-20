@@ -57,8 +57,22 @@
                 <div class="desc2">
                   Demo Android App Presentantion:
                   <video id="myvideo" width="320" height="240" autoplay loop muted>
-                    <source src="./" type="video/mp4">
-                  </video>
+                    <source src="./video/AndroidApp.mp4" type="video/mp4">
+                  </video>         
+                  <script>
+                    let toggle = button => {
+                       let element = document.getElementById("myvideo");
+                       let hidden = element.getAttribute("hidden");
+                  
+                       if (hidden) {
+                          element.removeAttribute("hidden");
+                          button.innerText = "Hide Video";
+                       } else {
+                          element.setAttribute("hidden", "hidden");
+                          button.innerText = "Show Video";
+                       }
+                    }
+                  </script>
                   <button onclick="toggle(this)">Hide Video</button>
                 </div>
               </div>
@@ -81,6 +95,5 @@
 
     </div>    
 </body>
-<script src="assets/scripts/elements.js"></script>
 
 </html>

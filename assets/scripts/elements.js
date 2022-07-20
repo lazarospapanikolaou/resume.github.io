@@ -1,5 +1,5 @@
 <script>
-  let toggle = button => {
+ z  let toggle = button => {
      let Element = document.getElementById("myvideo");
      let hidden = element.getAttribute("hidden");
 
