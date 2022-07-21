@@ -56,24 +56,20 @@
                 </div>
                 <div class="desc2">
                   Demo Android App Presentantion:
-                  <video id="myvideo" width="320" height="240" autoplay loop muted>
-                    <source src="./video/AndroidApp.mp4" type="video/mp4">
-                  </video>         
-                  <script>
-                    let toggle = button => {
-                       let element = document.getElementById("myvideo");
-                       let hidden = element.getAttribute("hidden");
-                  
-                       if (hidden) {
-                          element.removeAttribute("hidden");
-                          button.innerText = "Hide Video";
-                       } else {
-                          element.setAttribute("hidden", "hidden");
-                          button.innerText = "Show Video";
-                       }
+                  <div class="modal">
+                    <a href="#" onclick="toggle();"> Play Video </a>
+                    <div class="videoContainer">
+                      <video src="./video/AndroidApp.mp4" autoplay muted loop></video>         
+                    </div>  
+                  </div>
+
+                  <script type="text/javascript">
+                    function toggle(){
+                      var videoContainer = document.querySelector(".videoContainer")
+                      videoContainer.classList.toggle("active")
                     }
                   </script>
-                  <button onclick="toggle(this)">Hide Video</button>
+                  
                 </div>
               </div>
               <div class="item">
