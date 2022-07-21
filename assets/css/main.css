@@ -226,3 +226,16 @@ ul {
   cursor: pointer;
   max-width: 32px;
 }
+
+.profilePicture img {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  background-position: center center;
+  margin-left: 20px;
+  border: 2px solid white;
+  
+}
