@@ -275,3 +275,16 @@ ul {
   padding: 40px 0;
 }
 
+.contactInfo .LinkedInDetail {
+  padding: 10px 0;
+  display: block;
+}
+
+.contactInfo .LinkedInDetail .icon {
+  text-align: center;
+  display: block;
+}
+
+.contactInfo .LinkedInDetail .Text {
+  text-align: center;
+}
