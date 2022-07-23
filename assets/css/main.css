@@ -161,7 +161,7 @@ body {
 }
 .container .right_Side .section .container1 .items .item .desc3 {
   font-style: normal;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 15px;
   font-weight: 500;
 }
@@ -271,20 +271,97 @@ ul {
   font-weight: 300;
 }
 
-.contactInfo {
-  padding: 40px 0;
-}
-
 .contactInfo .LinkedInDetail {
   padding: 10px 0;
   display: block;
 }
 
-.contactInfo .LinkedInDetail .icon {
+.contactInfo .LinkedInDetail .icon a {
   text-align: center;
+  display: block;
+  color: white;
+  font-size: 35px;
+}
+
+.contactInfo .LinkedInDetail .Text a {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+
+.contactInfo .EmailDetail {
+  padding: 10px 0;
   display: block;
 }
 
-.contactInfo .LinkedInDetail .Text {
+.contactInfo .EmailDetail .icon a {
   text-align: center;
+  display: block;
+  color: white;
+  font-size: 35px;
+}
+
+.contactInfo .EmailDetail .Text a {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+
+.contactInfo .WebsiteDetail {
+  padding: 10px 0;
+  display: block;
+}
+
+.contactInfo .WebsiteDetail .icon a {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 35px;
+}
+
+.contactInfo .WebsiteDetail .Text a {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+
+.contactInfo .GithubDetail {
+  padding: 10px 0;
+  display: block;
+}
+
+.contactInfo .GithubDetail .icon a {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 35px;
+}
+
+.contactInfo .GithubDetail .Text a {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
+}
+
+.contactInfo .LocationDetail {
+  padding: 10px 0;
+  display: block;
+}
+
+.contactInfo .LocationDetail .icon i {
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 35px;
+}
+
+.contactInfo .LocationDetail .Text {
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 15px;
 }
