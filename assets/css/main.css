@@ -180,9 +180,8 @@ ul {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  
 }
-
 
 .videoContainer {
   position: fixed;
@@ -364,4 +363,16 @@ ul {
   color: white;
   display: block;
   font-size: 15px;
+}
+
+.skillsText {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  padding: 30px 0;
+  color: white;
 }
