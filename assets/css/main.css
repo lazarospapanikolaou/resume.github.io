@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-items: center;
   align-items: center;
-  min-height: 130vh;
+  min-height: 170vh;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 95%;
-  min-height: 1500px;
+  min-height: 130em;
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 5fr;
