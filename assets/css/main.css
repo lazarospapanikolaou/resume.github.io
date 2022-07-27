@@ -173,6 +173,13 @@ body {
   font-weight: 300;
 }
 
+.container .right_Side .section .container1 .items .item .desc5 {
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 ul {
   display: block;
   list-style-type: disc;
