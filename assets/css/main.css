@@ -180,6 +180,18 @@ body {
   font-weight: bold;
 }
 
+.container .right_Side .section .container1 .items .item .desc6 {
+  font-style: normal;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.container .right_Side .section .container1 .items .item .desc6 ul {
+  line-height: 2.0em;
+}
+
+
 ul {
   display: block;
   list-style-type: disc;
@@ -434,7 +446,6 @@ h2 {
   color: white;
   line-height: 1.8em;
 }
-
 
 
 
