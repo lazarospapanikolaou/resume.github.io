@@ -447,6 +447,13 @@ h2 {
   line-height: 1.8em;
 }
 
-
+.captiontag {
+  font-style: normal;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  font-size: 13px;
+  
+}
 
 
