@@ -1,2 +1,2 @@
-# resume.github.io
-My Website
+# Lazaros Papanikolaou | Resume Page
+
